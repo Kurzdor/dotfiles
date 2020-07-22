@@ -2,24 +2,24 @@
 
 ## What I use
 
-Windows 10 x64 2004 (build 19041.388)
-Windows Subsystem for Linux, version 2
-Main font in VS Code, Windows Terminal - **Pragmata Pro**
-VS Code:
+Windows 10 x64 2004 (build 19041.388)  
+Windows Subsystem for Linux, version 2  
+Main font in VS Code, Windows Terminal - **Pragmata Pro**  
+VS Code:  
 
 - Theme: [**Aurora X**](https://marketplace.visualstudio.com/items?itemName=marqu3s.aurora-x)
 - File icons: [**Material Icon Theme**](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - Extensions: See vscode/extensions.list
 
-Windows Terminal
-oh-my-zsh using [spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt) theme and these plugins:
+Windows Terminal  
+oh-my-zsh using [spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt) theme and these plugins:  
 
 - git
 - yarn
 - zsh-autosuggestions
 - yarn-autocompletions
 
-Other tools that I use:
+Other tools that I use:  
 
 - [Far Manager](https://www.farmanager.com/)
 - [nvm](https://github.com/nvm-sh/nvm)
