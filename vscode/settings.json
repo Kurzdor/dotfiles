@@ -1,0 +1,53 @@
+{
+  "breadcrumbs.enabled": false,
+  "editor.fontFamily": "'Pragmata Pro', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.suggestSelection": "first",
+  "files.eol": "\n",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "workbench.colorTheme": "Aurora X",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.menuBarVisibility": "toggle",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "prettier.arrowParens": "avoid",
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "prettier.jsxBracketSameLine": true,
+  "prettier.packageManager": "yarn",
+  "prettier.printWidth": 60,
+  "prettier.semi": false,
+  "prettier.singleQuote": true
+}
