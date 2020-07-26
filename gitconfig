@@ -1,6 +1,0 @@
-[user]
-	email = <email>
-	name = Kurzdor
-[core]
-	autocrlf = input
-	safecrlf = warn

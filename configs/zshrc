@@ -1,14 +1,13 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/kurzdor/.oh-my-zsh"
+export ZSH="/home/<profile>/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# denysdovhan => spaceship-prompt
 ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
@@ -69,9 +68,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-# https://github.com/g-plane/zsh-yarn-autocompletions
-# https://github.com/zsh-users/zsh-autosuggestions
-plugins=(git yarn zsh-autosuggestions yarn-autocompletions)
+plugins=(git zsh-autosuggestions yarn yarn-autocompletions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -106,6 +103,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
 alias c="code"
 alias chere="code ."
 alias clr="clear"
@@ -114,3 +113,4 @@ alias ro="cd /mnt/f/Repositories/Old"
 alias rp="cd /mnt/f/Repositories/Projects"
 alias rw="cd /mnt/f/Repositories/Work"
 alias rl="cd /mnt/f/Repositories/Learning"
+alias rpl="cd /mnt/f/Repositories/Playground"
